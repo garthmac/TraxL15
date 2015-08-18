@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		88691EF41B0112330074CA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691EF31B0112330074CA0A /* AppDelegate.swift */; };
 		88691EF61B0112330074CA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691EF51B0112330074CA0A /* ViewController.swift */; };
-		88691EF91B0112330074CA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88691EF71B0112330074CA0A /* Main.storyboard */; };
 		88691EFB1B0112330074CA0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88691EFA1B0112330074CA0A /* Images.xcassets */; };
 		88691EFE1B0112330074CA0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88691EFC1B0112330074CA0A /* LaunchScreen.xib */; };
 		88691F0A1B0112330074CA0A /* TraxL15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691F091B0112330074CA0A /* TraxL15Tests.swift */; };
+		88691F181B0112F30074CA0A /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691F131B0112F30074CA0A /* GPX.swift */; };
+		88691F191B0112F30074CA0A /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691F141B0112F30074CA0A /* MKGPX.swift */; };
+		88691F1A1B0112F30074CA0A /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691F151B0112F30074CA0A /* GPXViewController.swift */; };
+		88691F1B1B0112F30074CA0A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691F161B0112F30074CA0A /* ImageViewController.swift */; };
+		88691F1C1B0112F30074CA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88691F171B0112F30074CA0A /* Main.storyboard */; };
+		88691F1E1B012E590074CA0A /* EditWaypointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88691F1D1B012E590074CA0A /* EditWaypointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +35,17 @@
 		88691EF21B0112320074CA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88691EF31B0112330074CA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88691EF51B0112330074CA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88691EF81B0112330074CA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88691EFA1B0112330074CA0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88691EFD1B0112330074CA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		88691F031B0112330074CA0A /* TraxL15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraxL15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88691F081B0112330074CA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88691F091B0112330074CA0A /* TraxL15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxL15Tests.swift; sourceTree = "<group>"; };
+		88691F131B0112F30074CA0A /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		88691F141B0112F30074CA0A /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
+		88691F151B0112F30074CA0A /* GPXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
+		88691F161B0112F30074CA0A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		88691F171B0112F30074CA0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		88691F1D1B012E590074CA0A /* EditWaypointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWaypointViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				88691EF31B0112330074CA0A /* AppDelegate.swift */,
-				88691EF51B0112330074CA0A /* ViewController.swift */,
-				88691EF71B0112330074CA0A /* Main.storyboard */,
-				88691EFA1B0112330074CA0A /* Images.xcassets */,
-				88691EFC1B0112330074CA0A /* LaunchScreen.xib */,
+				88691F131B0112F30074CA0A /* GPX.swift */,
+				88691F141B0112F30074CA0A /* MKGPX.swift */,
+				88691F151B0112F30074CA0A /* GPXViewController.swift */,
+				88691F161B0112F30074CA0A /* ImageViewController.swift */,
+				88691F171B0112F30074CA0A /* Main.storyboard */,
+				88691F1D1B012E590074CA0A /* EditWaypointViewController.swift */,
 				88691EF11B0112320074CA0A /* Supporting Files */,
 			);
 			path = TraxL15;
@@ -90,6 +102,9 @@
 		88691EF11B0112320074CA0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88691EFA1B0112330074CA0A /* Images.xcassets */,
+				88691EF51B0112330074CA0A /* ViewController.swift */,
+				88691EFC1B0112330074CA0A /* LaunchScreen.xib */,
 				88691EF21B0112320074CA0A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +176,7 @@
 				TargetAttributes = {
 					88691EED1B0112320074CA0A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7P9362E76E;
 					};
 					88691F021B0112330074CA0A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -192,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88691EF91B0112330074CA0A /* Main.storyboard in Resources */,
+				88691F1C1B0112F30074CA0A /* Main.storyboard in Resources */,
 				88691EFE1B0112330074CA0A /* LaunchScreen.xib in Resources */,
 				88691EFB1B0112330074CA0A /* Images.xcassets in Resources */,
 			);
@@ -213,7 +229,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				88691EF61B0112330074CA0A /* ViewController.swift in Sources */,
+				88691F1A1B0112F30074CA0A /* GPXViewController.swift in Sources */,
+				88691F1E1B012E590074CA0A /* EditWaypointViewController.swift in Sources */,
+				88691F191B0112F30074CA0A /* MKGPX.swift in Sources */,
 				88691EF41B0112330074CA0A /* AppDelegate.swift in Sources */,
+				88691F1B1B0112F30074CA0A /* ImageViewController.swift in Sources */,
+				88691F181B0112F30074CA0A /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +257,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88691EF71B0112330074CA0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88691EF81B0112330074CA0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88691EFC1B0112330074CA0A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TraxL15/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TraxL15/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
